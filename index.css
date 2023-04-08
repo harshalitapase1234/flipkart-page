@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&family=Lato:wght@900&family=Nunito+Sans:wght@200&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.i1 {
+    font-size: 20px;
+    color: white;
+}
+
+.child1 {
+    font-size: 10px;
+    color: white;
+}
+
+.child1 :nth-child(2) {
+    color: yellow;
+}
+
+.search {
+    width: 500px;
+    margin: 7px 10px;
+    height: 34px;
+    border: 0;
+    padding-left: 15px;
+    border-radius: 1px;
+}
+
+.login {
+    margin: 7px 25px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: 0;
+}
+
+.become {
+    display: flex;
+}
+
+.become a {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 7px 10px;
+    padding: 10px;
+    color: white;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 1px #c4c1c1;
+    ;
+}
+
+.image-section div {
+    margin: 30px;
+    margin-top: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    display: grid;
+    font-size: 13px;
+}
+
+.image-section img {
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.mainpage{
+    background-color: #2874f0;
+    margin: 15px 120px;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+}
+.mainpage :nth-child(1) {
+  height: 300px;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.mainpage :nth-child(3)
+{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.mainpage :nth-child(4)
+{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
